@@ -1,7 +1,7 @@
 import type { ReactNode } from 'react';
 
 export interface ProductCardProps {
-	title: string;
+	name: string;
 	description: string;
 	image: string;
 	price: number;
